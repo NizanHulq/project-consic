@@ -1,0 +1,280 @@
+body {
+  font-family: "Roboto Slab", serif;
+}
+
+.container {
+  height: 100vh;
+  position: relative;
+}
+
+.vertical-center {
+  margin: 0;
+  width: 60%;
+  position: absolute;
+  text-align: center;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.brand-logo {
+  font-size: 2em;
+  font-weight: 700;
+  color: #fff;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+.title {
+  font-size: 3em;
+  font-weight: 700;
+  color: #000;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+.subtitle {
+  font-size: 1em;
+  font-weight: 400;
+  color: rgb(160, 160, 160);
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+.btn-login {
+  background-color: #000;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 1em;
+  font-weight: 700;
+  cursor: pointer;
+  width: 100%;
+  height: 12px;
+  box-shadow: 2px 2px 2px 2px #888888;
+  padding-top: 2%;
+  padding-bottom: 6%;
+}
+
+.btn-register {
+  background-color: #fff;
+  color: #000;
+  border: 2.5px solid #000;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 1em;
+  font-weight: 700;
+  cursor: pointer;
+  height: 10px;
+  width: 100%;
+  box-shadow: 2px 2px 2px 2px #888888;
+  padding-top: 2%;
+  padding-bottom: 6%;
+}
+
+.btn-dark{
+  box-shadow: 2px 2px 2px 2px #888888;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.navbar {
+  background-color: #46b3d4;
+  color: #fff;
+  padding: 0;
+  margin: 0;
+  height: 60px;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 20;
+}
+.nav-link {
+  color: #fff;
+}
+
+.masthead {
+  height: 100vh;
+  min-height: 500px;
+  background-color: #46b3d4;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  box-shadow: 0px 2px 2px 2px #888888;
+}
+
+.circle {
+  background: #6cb2e0;
+  border-radius: 50%;
+  width: 500px;
+  height: 500px;
+  z-index: 5;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  box-shadow: 3px 3px 10px 0px #378192;
+}
+
+.banner-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+  text-align: center;
+  display: flex;
+  width: 700px;
+  flex-wrap: wrap;
+}
+
+.spotlight {
+  background-color: #fff;
+  color: #000;
+  padding: 0;
+  margin: 0;
+  height: 100vh;
+}
+
+.concert {
+  background-color: #46b3d4;
+  color: #fff;
+  padding: 0;
+  margin: 0;
+  height: 120vh;
+  border: 10px;
+  box-shadow: 0px 2px 2px 2px #888888;
+}
+
+figure {
+  margin: 0;
+  margin-right: 1em;
+  width: min-content;
+  top: 50%;
+  position: absolute;
+  transform: translateY(-50%);
+}
+
+.cropped-image {
+  width: 150px;
+  height: 150px;
+  border-radius: 20px;
+  object-fit: cover;
+}
+
+.card {
+  background-color: #fff;
+  color: #000;
+  border-radius: 20px;
+  border: #000 3px solid;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  /* align-items: center; */
+}
+
+.card-spotlight {
+  box-shadow: 5px 5px 2px 2px #46b3d4;
+}
+
+.card-concert {
+  box-shadow: 5px 5px 2px 2px #000000;
+}
+
+.card-title {
+  font-weight: bold;
+  font-size: 1.5em;
+  color: #140095;
+}
+
+.card-footer {
+  background-color: #fff;
+  border-top: none;
+}
+
+.cropped-image-cl {
+  width: 50px;
+  height: 50px;
+  border: #fff 2px solid;
+  border-radius: 50%;
+  object-fit: cover;
+  position: absolute;
+}
+
+.cropped-image-concert {
+  width: 100%;
+  height: 200px;
+  border: #fff 2px solid;
+  border-radius: 20px;
+  object-fit: cover;
+}
+
+.partners {
+  background-color: #fff;
+  color: #000;
+  padding: 0;
+  margin: 0;
+  height: 50vh;
+}
+
+.copy{
+  text-align: center;
+  padding: 3px;
+  background-color: #46b3d4;
+  color: white;
+}
+
+.banner-cover{
+  background-image: url("http://localhost/project-consic/public/img/aeg.jpg");
+  height: 100vh;
+  min-height: 500px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.about{
+background-color: #fff;
+  color: #000;
+  padding: 0;
+  margin: 0;
+  height: 50vh;
+  }
+
+.list{
+background-color: #46b3d4;
+  color: #000;
+  padding: 0;
+  margin: 0;
+  height: 100vh;
+  box-shadow: 0px 2px 2px 2px #888888;
+}
+
+.layout{
+  background-color: #fff;
+    color: #000;
+    padding: 0;
+    margin: 0;
+    height: 130vh;
+}
+
+.promoters{
+  background-color: #46b3d4;
+    color: #000;
+    padding: 0;
+    margin: 0;
+    height: 50vh;
+}
+
+.form-label{
+  font-weight: bold;
+}
+
+
+
+
